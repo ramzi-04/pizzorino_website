@@ -1,0 +1,179 @@
+/* Header */
+
+.header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Navigation bar */
+
+.navbar {
+  background-color: #000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .active {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Container */
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Acceuil section */
+
+#acceuil {
+  padding: 20px;
+  text-align: center;
+}
+
+#acceuil h1 {
+  font-size: 30px;
+}
+
+#acceuil p {
+  font-size: 18px;
+}
+
+#acceuil img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* A propos section */
+
+#apropos {
+  padding: 20px;
+  text-align: center;
+}
+
+#apropos h1 {
+  font-size: 30px;
+}
+
+#apropos p {
+  font-size: 18px;
+}
+
+#apropos img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Nos pizzas section */
+
+#nospizzas {
+  padding: 20px;
+  text-align: center;
+}
+
+#nospizzas h1 {
+  font-size: 30px;
+}
+
+.recette-pizza {
+  margin-bottom: 20px;
+}
+
+.recette-pizza h2 {
+  font-size: 20px;
+}
+
+.recette-pizza ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recette-pizza li {
+  margin-bottom: 5px;
+}
+
+.recette-pizza img {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Contact section */
+
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 30px;
+}
+
+#contact form {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#contact form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+#contact form button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
