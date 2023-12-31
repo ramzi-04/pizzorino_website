@@ -7,24 +7,39 @@
       content="width=device-width,
     initial-scale=1.0"
     />
-    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Helvetica"
+      rel="stylesheet"
+    />
     <title>Krusty Pizzarino</title>
+
+    <!-- adding styles via <style></style> -->
+    <style>
+      .navbar-links {
+        display: flex;
+        gap: 20px;
+      }
+    </style>
   </head>
   <body>
+    <h1 style="font-family: Montserrat">ma pizzeria</h1>
+    <h1
+      style="font-family: Montserrat; font-weight: bold; font-size: 24px"
+    ></h1>
     <header>
       <!-- navigation bar -->
-      <nav>
+      <nav style="display: flex; background-color: black">
         <!-- navbar logo -->
         <a href="index.html">
           <img
+            class="logo-image"
             src="./images/imageslogo.png"
             alt="Krusty Pizzarino Logo"
-            width="150px"
-            height="150px"
           />
         </a>
         <!-- navbar links -->
-        <ul>
+        <ul class="navbar-links">
           <a href="#acceuil"><li>Acceuil</li></a>
           <a href="#apropos"><li>A propos</li></a>
           <a href="#nospizzas"><li>Nos Pizzas</li></a>
@@ -46,7 +61,11 @@
             nourriture "fast-food". <br />
             Et Nous sommes sûrs que vous trouverez quelque chose qui vous plaît.
           </p>
-          <img src="./images/images-my-photo.jpg" alt="Krabby Patty" />
+          <img
+            id="main-image"
+            src="./images/images-my-photo.jpg"
+            alt="Krabby Patty"
+          />
         </section>
 
         <!-- apropos section -->
@@ -68,11 +87,11 @@
       <section id="nospizzas">
         <h1>Nos recette de pizza</h1>
 
-        <!-- start of 1st pizza recipe -->
+        <!-- debubt de la 1er recette -->
         <div class="recette-pizza">
           <h2>Pizza au crabe et à la sauce tomate</h2>
           <h3>Ingrédients :</h3>
-          <ul>
+          <ul class="ingredients">
             <li>1 pâte à pizza</li>
             <li>1 boîte de chair de crabe</li>
             <li>1/2 tasse de sauce tomate</li>
@@ -109,6 +128,7 @@
           <!-- photo de la pizza 1 -->
           <img
             class="pizza-image"
+            id="img-recette-1"
             src="./images/pizza1.jpg"
             alt="Pizza au crabe et à la sauce tomate"
           />
@@ -156,6 +176,7 @@
           <!-- photo de la pizza 2 -->
           <img
             class="pizza-image"
+            id="img-recette-2"
             src="./images/pizza2.jpg"
             alt="Pizza au crabe et aux épinards"
           />
@@ -163,7 +184,7 @@
         <!-- fin de la 2eme pizza -->
 
         <!-- debut de la 3eme pizza -->
-        <div class="recette-pizza">
+        <div class="section section-color-2">
           <h2>Pizza au crabe et saumon</h2>
           <p>Ingrédients :</p>
           <ul>
@@ -201,6 +222,7 @@
           <!-- photo de la 3eme pizza -->
           <img
             class="pizza-image"
+            id="img-recette-3"
             src="./images/pizza3.jpg"
             alt="Pizza au crabe et saumon"
           />
@@ -208,9 +230,9 @@
         <!-- fin de la 3eme pizza -->
 
         <!-- debut de la 4eme pizza -->
-        <div class="recette-pizza">
-          <h2>Pizza au crabe et au bacon</h2>
 
+        <h2>Pizza au crabe et au bacon</h2>
+        <div class="section section-color-1">
           <ul>
             <li>1 pâte à pizza</li>
             <li>1 boîte de chair de crabe</li>
@@ -243,6 +265,7 @@
           <!-- image de la 4eme pizza -->
           <img
             class="pizza-image"
+            id="img-recette-4"
             src="./images/pizza4.jpg"
             alt="Pizza au crabe et au bacon"
           />
